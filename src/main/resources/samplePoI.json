@@ -1,0 +1,82 @@
+[{
+  "id": "123456",
+  "type": "MARINA",
+  "name": "Marina Palmizana",
+  "country": "Croatia",
+  "latitude": 43.1617425,
+  "longitude": 16.3954351,
+  "description": {
+    "shortDesc": "short",
+    "longDesc": "long"
+  },
+  "services": {
+    "electricity": true,
+    "water": true,
+    "diesel": true,
+    "repair": true,
+    "toilet": true,
+    "shower": true
+  },
+  "constrains": {
+    "maxLength": 15.05,
+    "maxDraft": 2.5,
+    "maxWidth": 5.0
+  },
+  "contacts": {
+    "url": "http://www.aci-marinas.com/en/aci_marina/aci-palmizana/",
+    "phones": [
+      "+385 (0)21 744 995",
+      "+385 (0)98 398 853"
+    ],
+    "email": "info@info.com",
+    "vhfChannel": 17,
+    "contactPersons": [
+      {
+        "name": "John Smith",
+        "phone": "202020202"
+      },
+      {
+        "name": "Bill Bones",
+        "phone": "13905830945"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "user": "Ivan Ivanov",
+      "reviewText": "Sehr schonn",
+      "rating": 5
+    }
+  ]
+},
+  {
+    "id": "12398932",
+    "type": "ANCORAGE",
+    "name": "My Secret Bay",
+    "country": "Croatia",
+    "latitude": 43.1585013,
+    "longitude": 16.4111882,
+    "description": {
+      "shortDesc": "short",
+      "longDesc": "long"
+    },
+    "services": {
+      "electricity": false,
+      "water": false,
+      "diesel": false,
+      "repair": false,
+      "toilet": true,
+      "shower": false,
+    },
+    "contacts": {
+      "email": "info@mysecretbay.com"
+    },
+    "reviews": [
+      {
+        "user": "Ivan Ivanov",
+        "reviewText": "Very good",
+        "rating": 5
+      }
+    ]
+  }
+]
